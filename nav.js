@@ -24,5 +24,9 @@ document.getElementById('navbar').innerHTML = '<nav class="navbar navbar-expand-
     
   '</div>'+
 '</div>'+
-'</nav>'
-;
+'</nav>';
+
+$(document).on('click', 'ul li a', function(){
+  $('ul li a').removeClass('active');
+  $(this).addClass('active');
+});
