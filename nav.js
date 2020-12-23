@@ -8,16 +8,16 @@ document.getElementById('navbar').innerHTML = '<nav class="navbar navbar-expand-
   '<div class="collapse navbar-collapse" id="navbarSupportedContent">' +
    '<ul class="navbar-nav ms-auto mb-2 mb-lg-0">' +
       '<li class="nav-item">'+
-        '<a class="active nav-link" href="#">Home</a>'+
+        '<a class="active nav-link" href="homepage.html">Home</a>'+
       '</li>'+
       '<li class="nav-item">'+
-        '<a class="nav-link" href="#">About Us</a>'+
+        '<a class="nav-link" href="about_us.html">About Us</a>'+
       '</li>'+
       '<li class="nav-item">'+
-       '<a class="nav-link" href="#">Contact Us</a>'+
+       '<a class="nav-link" href="contact_us.html">Contact Us</a>'+
       '</li>'+
       '<li class="nav-item">'+
-        '<a class="nav-link" href="#">Categories</a>'+
+        '<a class="nav-link" href="categories.html">Categories</a>'+
       '</li>'+
       
     '</ul>'+
@@ -26,7 +26,8 @@ document.getElementById('navbar').innerHTML = '<nav class="navbar navbar-expand-
 '</div>'+
 '</nav>';
 
-$(document).on('click', 'ul li a', function(){
+
+$('nav li a').filter(function(){
   $('ul li a').removeClass('active');
-  $(this).addClass('active');
-});
+  return this.href === location.href;
+}).addClass('active');
