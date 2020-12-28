@@ -34,6 +34,24 @@
     color: white;
 }
 
+.section-feature{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.section-feature h2{
+    font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+#whyUs-para{
+    color: black;
+}
+
+.feature-icons{
+    height: auto;
+    width: 30%;
+}
+
 body{
     background-color: ghostwhite;
 }
