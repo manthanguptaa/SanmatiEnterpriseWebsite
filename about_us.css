@@ -1,0 +1,39 @@
+.container h1{
+    font-family:Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+    margin-top: 1%;
+    color: white;
+}
+
+.aboutUs{
+    background-image: linear-gradient(rgba(41, 40, 40, 0.85),rgba(0, 0, 0, 0.925)),url(images/lab.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 50vh;
+}
+
+#heading{
+    color: orange;
+}
+
+#headingBorder {
+    border-bottom: 2px solid white;
+    align-content: center;
+    bottom: 50%;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.container p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    color: white;
+}
+
+body{
+    background-color: ghostwhite;
+}
