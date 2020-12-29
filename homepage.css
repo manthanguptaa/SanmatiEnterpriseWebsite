@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(240, 240, 240);
+    background-color: white;
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show .nav-link {
@@ -8,74 +8,124 @@ body{
     
 }
 
+.navbar{
+    background-color:#f6efe8;
+    padding:20px;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: x-large;
+}
+
 .navbar-light .navbar-nav .nav-link{
     font-weight: 700;
+    font-size: large;
+    color: black;
     padding-left: 20px;
     padding-right: 20px;
 }
-
- #container {
-    background-image: url("https://image.freepik.com/free-vector/contact-us-concept-landing-page_52683-12860.jpg");
-    background-color: rgb(240, 240, 240);;
-    background-position:left top; 
-    background-repeat: no-repeat;
-    background-size: 770px 410px;
-    width: 100%;
-    border-color:rgb(240, 240, 240);
-    height: 450px;
-    margin: 0 auto;
-    
-}
-
-#container h1{
-    text-align: right;
-    padding-top: 100px;
-    padding-right: 130px;
-    font-size: 60px;
-
-}
-#container h2{
-    text-align: right;
-    padding-top: 35px;
-    padding-right: 200px;
-    font-size: 40px;
-
-}
-#body_container{
-    display: flex;
-    width: 100%;
-    height: 700px;
-    justify-content: space-around;
-}
-
-#body_container div{
-
-    height: 500px;
-    width: 40%;
-    padding-top:90px;
-    padding-left: 20px;
-}
-
-input[type=text], input[type=email], select, textarea {
-    width: 90%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
 
   #container_footer { 
     display: flex;
     width: 100%; 
    height: 200px;  
    justify-content: space-around;
+   background-color: white;
+   margin-top: 30px;
+   
    
 } 
   #container_footer div{
       width: 25%;
+      padding-left: 25px;
+      padding-top: 20px;
   }
 
+  h1{
+     font-size: 50px;
+     font-weight: 700;
+  }
+  
+  h2{
+      font-size: 40px;
+      font-weight: 650;
+  }
 
+  .btn-lg{
+    margin-top: 20px;
+    padding: 1rem 2rem;
+  }
+
+ .body_contain{
+  display:flex;
+  width: 100%;
+  height:550px;
+  background-color: #f6efe8;
+  
+}
+
+.right img{
+    width: 670px;  
+}
+.left{
+    padding-left: 45px;
+    padding-right: 60px;
+    margin-top:100px;
+}
+.right{
+    padding-right: 30px;
+    margin:auto;
+}
+
+.product{
+    display:flex;
+    width:100%;
+    height:490px;
+    padding-top: 50px;
+    background-color: #f6efe8;
+}
+
+.image{
+  flex:50%;
+}
+
+.mySlides{
+    width:600px;
+    padding-right: 50px ;
+}
+
+.text{
+    padding-left: 150px;
+    flex:50%;
+    padding-right: 30px;
+}
+
+.customer{
+    display: flex;
+    height:450px;
+    width:100%;
+    padding-left:20px;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.customer div img{
+    border-radius: 30%;
+    height: 370px;
+}
+.customer div{
+    width: 45%;
+}
+
+.upper_footer{
+    background: #4a154b;
+    border: none;
+    clip-path: ellipse(75% 100% at center top);
+    height: auto;
+    height:300px;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+.upper_footer h1{
+    color: white;
+}
