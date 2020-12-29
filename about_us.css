@@ -1,5 +1,5 @@
-.container h1{
-    font-family:Georgia, "Times New Roman", Times, serif;
+.aboutUs h1{
+    font-family: Helvetica;
     text-align: center;
     margin-top: 1%;
     color: white;
@@ -26,7 +26,7 @@
     margin-right: auto;
   }
 
-.container p{
+.aboutUs p{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     margin-top: 1%;
