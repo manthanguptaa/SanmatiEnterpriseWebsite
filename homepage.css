@@ -3,7 +3,7 @@ body{
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show .nav-link {
-    background-color: #c38d9e;
+    background-color:#148fcf;
     color: white;
     
 }
@@ -14,7 +14,8 @@ body{
 }
 .navbar-brand{
     font-weight: 700;
-    font-size: x-large;
+    font-size: 40px;
+    font-family: 'Alex Brush', cursive;
 }
 
 .navbar-light .navbar-nav .nav-link{
@@ -23,15 +24,16 @@ body{
     color: black;
     padding-left: 20px;
     padding-right: 20px;
+    font-family: Helvetica;
 }
 
   #container_footer { 
     display: flex;
     width: 100%; 
-   height: 200px;  
-   justify-content: space-around;
-   background-color: white;
-   margin-top: 30px;
+    height: 200px;  
+    justify-content: space-around;
+    background-color: white;
+    margin-top: 30px;
    
    
 } 
@@ -42,13 +44,25 @@ body{
   }
 
   h1{
-     font-size: 50px;
+     font-size: 55px;
      font-weight: 700;
+     font-family: Helvetica;
   }
   
   h2{
       font-size: 40px;
       font-weight: 650;
+  }
+
+  h5{
+      font-family: 'Lato', sans-serif;
+      text-align: justify;
+  }
+
+  h4{
+    font-family: 'Alex Brush', cursive;
+    font-weight: 600;
+    font-size: 30px;
   }
 
   .btn-lg{
@@ -57,10 +71,10 @@ body{
   }
 
  .body_contain{
-  display:flex;
-  width: 100%;
-  height:550px;
-  background-color: #f6efe8;
+    display:flex;
+    width: 100%;
+    height:550px;
+    background-color: #f6efe8;
   
 }
 
@@ -86,7 +100,7 @@ body{
 }
 
 .image{
-  flex:50%;
+    flex:50%;
 }
 
 .mySlides{
@@ -128,4 +142,27 @@ body{
 }
 .upper_footer h1{
     color: white;
+}
+
+.footer-sub-heading{
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+li{
+    font-family: Helvetica;
+    font-size: 13px;
+}
+
+#getStarted{
+    background-color: #148fcf;
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+@font-face{
+    font-family: Helvetica;
+    src: url('font/Helvetica.ttf');
 }
