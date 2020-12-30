@@ -1,6 +1,4 @@
-body{
-    background-color: rgb(240, 240, 240);
-}
+
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show .nav-link {
     background-color:#148fcf;
@@ -27,17 +25,25 @@ body{
     font-family: Helvetica;
 }
 
- #container {
-    background-image: url("https://image.freepik.com/free-vector/contact-us-concept-landing-page_52683-12860.jpg");
-    background-color: rgb(240, 240, 240);;
-    background-position:left top; 
-    background-repeat: no-repeat;
-    background-size: 770px 410px;
-    width: 100%;
-    border-color:rgb(240, 240, 240);
-    height: 450px;
-    margin: 0 auto;
-    
+
+#banner{
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+#banner h1{
+    padding-top: 25%;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#banner h2{
+    font-size: 25px;
+    padding-left: 3%;
+}
+
+#banner h1, h2{
+    font-family: Helvetica;
 }
 
 #container h1{
@@ -54,14 +60,15 @@ body{
     font-size: 40px;
 
 }
-#body_container{
+#body-container{
     display: flex;
     width: 100%;
     height: 700px;
     justify-content: space-around;
+    background-color: #148fcf;
 }
 
-#body_container div{
+#body-container div{
 
     height: 500px;
     width: 40%;
@@ -70,28 +77,88 @@ body{
     
 }
 
+#body-container h2{
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+#body-container p{
+    color: white;
+
+}
+
 input[type=text], input[type=email], select, textarea {
-    width: 90%; /* Full width */
     padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    
   }
 
-  #container_footer { 
+  #container-footer { 
     display: flex;
     width: 100%; 
    height: 200px;  
    justify-content: space-around;
-   background-color: rgb(216,191,216);
    
    
 } 
-  #container_footer div{
+  #container-footer div{
       width: 25%;
       padding-left: 25px;
       padding-top: 20px;
+  }
+
+  #container-footer h4{
+    font-family: 'Alex Brush', cursive;
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  .footer-heading{
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 15px;
+
+  }
+
+  li{
+    font-family: Helvetica;
+    font-size: 13px;
+  }
+
+  .form-control{
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
+    font-family: 'Pacifico', cursive;
+    color: #212529;	
+  }
+
+  ::placeholder {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #838788;
+    position: relative;
+    left: 0;
+  }
+.message{
+    padding: 1rem;
+}
+  form{
+    min-width: 25rem;
+  }
+
+  .submit{
+      border-radius: 2rem;
+  }
+  #body-container h3{
+      font-family: 'Lato', sans-serif;
+  }
+
+  #footer-foot{
+      font-family: Helvetica;
   }

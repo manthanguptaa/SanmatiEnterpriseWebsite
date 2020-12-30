@@ -23,30 +23,37 @@
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="nav.js"></script>
 
-  <section id="container">
-    <h1>Got questions?</h1>
-    <h2>Let us help you!</h2>
+  <section id="banner">
+    <div class="row justify-content-center">
+      <div class="col">
+        <img src="images/contact_us.png">
+      </div>
+      <div class="col">
+        <h1>Got questions?</h1>
+        <h2>Let us help you!</h2>
+      </div>
+    </div>
   </section>
 
-  <section id="body_container">
-    <div style="background-color:rgb(240, 240, 240);">
+  <section id="body-container">
+    <div>
       <h2>Get in touch</h2>
       <p>Please fill out this quick form. If you got some ideas or questions, we would love to hear them</p>
       <form action="#">
 
 
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <input class="form-control" type="text" id="fname" name="firstname" placeholder="Your name..">
 
 
-        <input type="email" id="lname" name="lastname" placeholder="Your email address...">
+        <input class="form-control" type="email" id="lname" name="lastname" placeholder="Your email address...">
 
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <textarea class="form-control message" id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" class="btn btn-danger submit">
 
       </form>
     </div>
-    <div style="background-color:rgb(240,240,240);">
+    <div>
       <h3 style="padding-top: 135px;"><i class="fas fa-home"></i> 341, Civil Lines, Roorkee</h3>
       <h3 style="padding-top: 25px;"><i class="fas fa-home"></i> Uttarakhand, Pin Code: 247667</h3>
       <h3 style="padding-top: 25px;"><i class="fas fa-phone"></i> 9837094921</h3>
@@ -54,13 +61,13 @@
     </div>
   </section>
 
-  <section id="container_footer">
+  <section id="container-footer">
     <div>
       <h4>Sanmati Enterprises</h4>
       <p> Lorem ipsum is simply dummy text of the printing and typesetting industry. </p>
     </div>
     <div>
-      <p>Explore</p>
+      <p class="footer-heading">Explore</p>
       <ul style="list-style: none;">
         <li>
           <a style="color:black; text-decoration: none;" href="homepage.html">Homepage</a>
@@ -72,7 +79,7 @@
     </div>
 
     <div>
-      <p>Follow</p>
+      <p class="footer-heading">Follow</p>
       <ul style="list-style: none;">
         <li><a style="color:black; text-decoration: none;" href="#">Instagram</a></li>
         <li><a style="color:black; text-decoration: none;" href="#">Linkedln</a></li>
@@ -82,14 +89,14 @@
     </div>
 
     <div>
-      <p>Legal</p>
+      <p class="footer-heading">Legal</p>
       <ul style="list-style: none;">
         <li><a style="color:black; text-decoration: none;" href="#">Terms</a></li>
         <li><a style="color:black; text-decoration: none;" href="#">Privacy</a></li>
       </ul>
     </div>
   </section>
-  <p style="text-align: center; background-color: rgb(216,191,216);
+  <p id="footer-foot" style="text-align: center;
      ">2020@Sanmati Enterprises. All rights reserved</p>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
