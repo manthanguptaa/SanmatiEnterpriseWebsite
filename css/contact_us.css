@@ -77,12 +77,15 @@
     background-color: rgb(173,216,230);
 }
 
+#body-container div h3{
+    padding-top: 135px;
+}
 #body-container div{
 
     height: 500px;
     width: 40%;
     padding-top:90px;
-    padding-left: 20px;
+    padding-left: 50px;
     
 }
 
@@ -172,10 +175,36 @@ input[type=text], input[type=email], select, textarea {
       font-family: Helvetica;
   }
 
-  @media (max-width: 1000px) {
-    #container, #body_container, #container_footer{
+  
+
+  @media (max-width: 800px) {
+     #body-container, #container-footer, #banner{
         height: 0%;
         flex-direction: column;
     }
-   
+    #body-container div{
+        height:0%;
+    }
+
+    #banner h1{
+        padding-top: 10px;
+    }
+    
+    #body-container div h3{
+        padding-top: 15px;
+    }
+    #body-container div{
+        width:90%;
+        padding-top:30px;
+        padding-bottom: 20px;
+    }
+
+    #banner img{
+        width:fit-content;
+        padding-left:20px;
+    }
+
+    #container-footer div{
+        width:100%;
+    }
   }

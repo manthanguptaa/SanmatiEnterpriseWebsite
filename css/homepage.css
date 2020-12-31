@@ -25,9 +25,10 @@ body{
      font-family: Helvetica;
   }
   
-  h2{
-      font-size: 40px;
-      font-weight: 650;
+  .numbers h2{
+      font-size: 30px;
+      font-weight: 400;
+      padding:0px 90px;
   }
 
   h5{
@@ -72,17 +73,18 @@ body{
     justify-content: space-evenly;
     flex-direction: row;
     width:100%;
-    height:490px;
+    height:520px;
     padding-top: 50px;
     background-color: #f6efe8;
 }
 
 .image{
     flex:40%;
+    padding-right: 30px;
 }
 
 .mySlides{
-    width:600px;
+    width:560px;
     padding-right: 50px ;
 }
 
@@ -124,6 +126,15 @@ li{
     font-size: larger;
     font-weight: 600;
     font-family: 'Lato', sans-serif;
+}
+
+.numbers span{
+    color:#0d83dd;
+    font-size:75px;
+   vertical-align: middle;}
+   h2 {
+    font-size: 40px;
+    font-weight: 650;
 }
 
 @font-face{
@@ -203,7 +214,7 @@ li{
     font-weight: 600;
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1200px) {
      .container, .product, #container_footer {
         height: 0%;
         flex-direction: column;
@@ -226,7 +237,7 @@ li{
         flex-direction: column-reverse;
     }
   }
-  @media (max-width: 650px) {
+  @media (max-width: 750px) {
     .container, .product, #container_footer {
        height: 0%;
        flex-direction: column;
