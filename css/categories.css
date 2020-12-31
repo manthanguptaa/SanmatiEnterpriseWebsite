@@ -93,12 +93,11 @@ body{
   .wrapper .main_content{
     margin-left: 60px;
     margin-top: 50px;
-    
   }
   
   
   .wrapper .main_content div{
-    padding:30px 45px;
+    padding:20px 35px;
   }
   
   .card-img-top{
@@ -127,6 +126,10 @@ body{
     font-weight: 600;
   }
   
+  .card{
+    border: none;
+  }
+
   @media (max-width: 1000px) {
   
     .wrapper{
