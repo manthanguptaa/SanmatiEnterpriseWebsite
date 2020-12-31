@@ -290,3 +290,15 @@ li{
      font-size: 25px;
      font-weight: bolder;
  }
+
+ @media (max-width: 500px) {
+
+    .right img{
+        width:400px;
+    }
+    .mySlides{
+        width:420px;
+        padding-right: 10px;
+        padding-left: 30px;
+    }
+ }
