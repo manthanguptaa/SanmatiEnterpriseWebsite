@@ -132,8 +132,8 @@ h4{
 }
 
 .navbar{
-    background-color: transparent;
     padding:20px;
+    background-color: transparent;
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show .nav-link {
