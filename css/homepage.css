@@ -26,8 +26,9 @@ body{
   }
   
   h2{
-      font-size: 40px;
-      font-weight: 650;
+      font-size: 30px;
+      font-weight: 400;
+      padding:0px 90px;
   }
 
   h5{
@@ -72,13 +73,14 @@ body{
     justify-content: space-evenly;
     flex-direction: row;
     width:100%;
-    height:490px;
+    height:520px;
     padding-top: 50px;
     background-color: #f6efe8;
 }
 
 .image{
     flex:40%;
+    padding-right: 30px;
 }
 
 .mySlides{
@@ -125,6 +127,11 @@ li{
     font-weight: 600;
     font-family: 'Lato', sans-serif;
 }
+
+span{
+    color:#0d83dd;
+    font-size:75px;
+   vertical-align: middle;}
 
 @font-face{
     font-family: Helvetica;
