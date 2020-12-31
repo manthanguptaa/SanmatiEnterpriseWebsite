@@ -194,7 +194,7 @@ input[type=text], input[type=email], select, textarea {
         padding-top: 15px;
     }
     #body-container div{
-        width:90%;
+        width:100%;
         padding-top:30px;
         padding-bottom: 20px;
     }
@@ -207,4 +207,34 @@ input[type=text], input[type=email], select, textarea {
     #container-footer div{
         width:100%;
     }
+  }
+  @media (max-width: 500px) {
+
+    #banner img {
+        width: 337px;
+        padding-left: 20px;
+        padding-top: 20px;
+        height: 250px;
+    }
+
+    #banner h1{
+        font-size:40px;
+        padding-left:20px;
+        padding-top: 1px;
+    }
+    form{
+        min-width: 0rem;
+    }
+
+    #body-container div{
+        padding: 30px 10px 20px 15px;
+    }
+
+    #banner h2{
+        margin-bottom: 2.5rem;
+    }
+    .navbar-brand{
+        font-size: 1.25rem;
+    }
+
   }
