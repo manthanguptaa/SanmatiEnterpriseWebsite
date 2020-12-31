@@ -162,3 +162,22 @@ input[type=text], input[type=email], select, textarea {
   #footer-foot{
       font-family: Helvetica;
   }
+  @media (max-width: 1000px) {
+    #container, #body_container, #container_footer{
+        height: 0%;
+        flex-direction: column;
+    }
+    #body_container div{
+        width:100%;
+    }
+    #container h1{
+        padding-top:370px;
+        font-size: 45px;
+    }
+    #container h2{
+        font-size: 30px;
+    }
+    #container{
+        background-size:contain;
+    }
+  }
