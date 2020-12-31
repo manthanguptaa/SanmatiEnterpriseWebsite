@@ -3,17 +3,12 @@ body{
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show .nav-link {
-    background-color: #c38d9e;
-    color: white;
-    
+    background-color:#148fcf;
 }
 
-.navbar-light .navbar-nav .nav-link{
-    font-weight: 700;
-    padding-left: 20px;
-    padding-right: 20px;
+.navbar{
+    background-color: transparent;
 }
-
  #container {
     background-image: url("https://image.freepik.com/free-vector/contact-us-concept-landing-page_52683-12860.jpg");
     background-color: rgb(240, 240, 240);;
@@ -81,4 +76,24 @@ input[type=text], input[type=email], select, textarea {
       width: 25%;
       padding-left: 25px;
       padding-top: 20px;
+  }
+
+  @media (max-width: 1000px) {
+    #container, #body_container, #container_footer{
+        height: 0%;
+        flex-direction: column;
+    }
+    #body_container div{
+        width:100%;
+    }
+    #container h1{
+        padding-top:370px;
+        font-size: 45px;
+    }
+    #container h2{
+        font-size: 30px;
+    }
+    #container{
+        background-size:contain;
+    }
   }

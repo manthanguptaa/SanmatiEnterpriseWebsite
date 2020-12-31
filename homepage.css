@@ -2,37 +2,13 @@ body{
     background-color: white;
 }
 
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show .nav-link {
-    background-color:#148fcf;
-    color: white;
-    
-}
-
-.navbar{
-    background-color:#f6efe8;
-    padding:20px;
-}
-.navbar-brand{
-    font-weight: 700;
-    font-size: 40px;
-    font-family: 'Alex Brush', cursive;
-}
-
-.navbar-light .navbar-nav .nav-link{
-    font-weight: 700;
-    font-size: large;
-    color: black;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-family: Helvetica;
-}
 
   #container_footer { 
     display: flex;
     width: 100%; 
     height: 200px;  
     justify-content: space-around;
-    background-color: white;
+    background-color: #f6efe8;
     margin-top: 30px;
    
    
@@ -93,6 +69,8 @@ body{
 
 .product{
     display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
     width:100%;
     height:490px;
     padding-top: 50px;
@@ -100,7 +78,7 @@ body{
 }
 
 .image{
-    flex:50%;
+    flex:40%;
 }
 
 .mySlides{
@@ -109,7 +87,7 @@ body{
 }
 
 .text{
-    padding-left: 150px;
+    padding-left: 120px;
     flex:50%;
     padding-right: 30px;
 }
@@ -128,20 +106,6 @@ body{
 }
 .customer div{
     width: 45%;
-}
-
-.upper_footer{
-    background: #4a154b;
-    border: none;
-    clip-path: ellipse(75% 100% at center top);
-    height: auto;
-    height:300px;
-    text-align: center;
-    padding-top: 80px;
-    
-}
-.upper_footer h1{
-    color: white;
 }
 
 .footer-sub-heading{
@@ -166,3 +130,141 @@ li{
     font-family: Helvetica;
     src: url('font/Helvetica.ttf');
 }
+
+*{
+    box-sizing: border-box
+  }
+
+  .container{
+    
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .testimonial-card{
+    min-height: 400px;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0,0,0,.3);
+    display: flex;
+    flex-flow: column;
+    justify-content:space-between;
+   
+  }
+  .tex{
+    padding: 2.2em;
+    line-height: 1.7em;
+    position: relative;
+    font-size: 18px;
+  }
+  .imag{
+    background-color:tomato;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 5px solid white;
+    background:no-repeat center/cover url(https://images.unsplash.com/photo-1563715992566-7ad5cf5b71d3?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+    display:flex;
+    justify-content:center;
+    
+  }
+  
+  .footer{
+    background: linear-gradient(90deg, #1a2B96 0%, #d22B96 100%);
+    height: 140px;
+    border-radius: 0 0 10px 10px;
+    position:relative;
+    
+  }
+  
+  .quote{
+    font-size: 400%;
+    float: right;
+    opacity: .1;
+    transform: rotate(10deg) translate(-10px, -40px);
+   color:#4D3FA3;
+  }
+  
+  .person{
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    font-size:1.5rem;
+    font-weight: 600;
+  }
+
+  @media (max-width: 1000px) {
+     .container, .product, #container_footer {
+        height: 0%;
+        flex-direction: column;
+    }
+
+    .right img{
+        width: 500px; 
+        padding-top:35px; 
+    }
+    h2{
+        font-size: 30px;
+        font-weight: 400;
+        padding-bottom: 100px;
+    }
+    .text{
+        padding-left: 40px;
+    }
+    .body_contain{
+        height: 0%;
+        flex-direction: column-reverse;
+    }
+  }
+  @media (max-width: 650px) {
+    .container, .product, #container_footer {
+       height: 0%;
+       flex-direction: column;
+   }
+
+   .right img{
+       width: 500px; 
+       padding-top:35px; 
+   }
+   .left h1{
+       font-size:35px;
+   }
+   .left h5{
+       font-size:1rem;
+   }
+   .text h1{
+      font-size:35px;
+   }
+   .text h5{
+       font-size:1rem;
+   }
+   h2{
+       font-size: 30px;
+       font-weight: 400;
+       padding-bottom: 100px;
+   }
+   .text{
+       padding-left: 40px;
+       padding-top: 30px;
+   }
+   .body_contain{
+       height: 0%;
+       flex-direction: column-reverse;
+   }
+   .btn-lg{
+       padding:0.4rem;
+   }
+   .text button{
+       margin-bottom: 30px;
+   }
+ }

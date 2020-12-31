@@ -118,3 +118,23 @@ body{
     
   }
   
+  @media (max-width: 1000px) {
+  
+    .wrapper{
+      height:0%;
+      flex-direction: column;
+    }
+    .wrapper .sidebar ul li{
+      padding:0%;
+    }
+    
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;};
+    .main_content {margin-left: 0;}
+  }
+
+  
