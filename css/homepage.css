@@ -268,3 +268,14 @@ li{
        margin-bottom: 30px;
    }
  }
+
+ #testimonials-text{
+     color:#175a7e;
+ }
+
+ h3{
+     padding-left: 10%;
+     font-family: Helvetica;
+     font-size: 25px;
+     font-weight: bolder;
+ }
