@@ -25,7 +25,7 @@ body{
      font-family: Helvetica;
   }
   
-  h2{
+  .numbers h2{
       font-size: 30px;
       font-weight: 400;
       padding:0px 90px;
@@ -84,7 +84,7 @@ body{
 }
 
 .mySlides{
-    width:600px;
+    width:560px;
     padding-right: 50px ;
 }
 
@@ -128,10 +128,14 @@ li{
     font-family: 'Lato', sans-serif;
 }
 
-span{
+.numbers span{
     color:#0d83dd;
     font-size:75px;
    vertical-align: middle;}
+   h2 {
+    font-size: 40px;
+    font-weight: 650;
+}
 
 @font-face{
     font-family: Helvetica;
@@ -210,7 +214,7 @@ span{
     font-weight: 600;
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1200px) {
      .container, .product, #container_footer {
         height: 0%;
         flex-direction: column;
@@ -233,7 +237,7 @@ span{
         flex-direction: column-reverse;
     }
   }
-  @media (max-width: 650px) {
+  @media (max-width: 750px) {
     .container, .product, #container_footer {
        height: 0%;
        flex-direction: column;

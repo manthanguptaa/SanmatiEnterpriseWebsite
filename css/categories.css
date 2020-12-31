@@ -130,7 +130,7 @@ body{
     border: none;
   }
 
-  @media (max-width: 1000px) {
+  @media (max-width: 800px) {
   
     .wrapper{
       height:0%;
@@ -147,6 +147,10 @@ body{
     }
     .sidebar a {float: left;};
     .main_content {margin-left: 0;}
+
+    .wrapper .sidebar{
+      width:100%;
+    }
   }
 
   
