@@ -54,6 +54,9 @@ body{
     background-color: #f6efe8;
   
 }
+.numbers .btn-lg{
+    margin: 50px 580px;
+}
 
 .right img{
     width: 670px;  
@@ -293,7 +296,12 @@ li{
    .numbers{
        margin-top: 30px;
        margin-bottom: 50px;
+       height: 0%;
    }
+   .numbers .btn-lg{
+    margin: 50px 127px;
+}
+
  }
 
  #testimonials-text{
