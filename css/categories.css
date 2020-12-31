@@ -116,6 +116,10 @@ body{
     font-weight: bold;
   }
 
+  .card{
+    border: none;
+  }
+
   .btn{
     font-family: Helvetica;
     width: 75%;
