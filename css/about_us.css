@@ -6,8 +6,8 @@
 }
 
 .aboutUs{
-    background-image: linear-gradient(rgba(41, 40, 40, 0.85),rgba(0, 0, 0, 0.925)),url(images/lab.png);
-    background-size: cover;
+    background-image: linear-gradient(rgba(41, 40, 40, 0.85),rgba(0, 0, 0, 0.925)),url(../images/lab.png);
+    background-size:cover;
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
@@ -117,19 +117,28 @@ h4{
 }
 .navbar-light .navbar-nav .nav-link {
    color:white;
+   font-weight: 700;
+    font-size: large;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Helvetica;
 }
 
 .navbar-light .navbar-brand {
     color:white;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Alex Brush', cursive;
 }
 
 .navbar{
     background-color: transparent;
+    padding:20px;
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show .nav-link {
     background-color:#148fcf;
-    color:black;
+    color:white;
     
 }
 
